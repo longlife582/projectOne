@@ -1,40 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <p>
-            jeff and co. Enterprise
-        </p>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="#">Contact Us</a>
-                </li>
-    
-                <li>
-                    <a href="terms.html">Terms And Condition</a>
-                </li>
+      <p>jeff and co. Enterprise</p>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="#">Contact Us</a>
+          </li>
 
-                <li>
-                    <a href="about.html">About Us</a>
-                </li>
-            </ul>
-        </nav>
+          <li>
+            <a href="terms.html">Terms And Condition</a>
+          </li>
+
+          <li>
+            <a href="about.html">About Us</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <h1>
-            Contact Us
-        </h1>
+      <h1>Contact Us</h1>
+      <form>
+        <label for="fullame">Fullname</label><br />
+        <input
+          type="text"
+          name="fullame"
+          placeholder="john doe"
+          required
+        /><br />
+        <label for="">Email</label><br />
+        <input
+          type="email"
+          name="email"
+          placeholder="email@gmail.com"
+          id=""
+          required
+        /><br />
+        <label for="gender">Gender</label><br />
+        <select name="gender" id="">
+
+          <option value="selectgender" disabled selected> select gender</option>
+          <option value="Male" >Male</option>
+          <option value="female" >Female</option>
+        </select> <br />
+        <label for="phone Number">Phone Number </label><br />
+        <input
+          type="tel"
+          name="phone number"
+          placeholder="0000-0000-0000"
+          /><br />
+        <label for="message">Message</label><br />
+        <textarea name="phone" id="" cols="30" rows="10"></textarea><br />
+        <button>Submit</button>
+      </form>
     </main>
-</body>
+  </body>
 </html>
